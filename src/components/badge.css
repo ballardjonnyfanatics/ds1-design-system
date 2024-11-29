@@ -1,63 +1,84 @@
+/* Base styles for the badge */
 .badge {
-  display: inline-flex;
-  align-items: center;
-  padding: 0.5em 1em;
-  border-radius: 0.25em;
-  font-size: 0.875em;
-  font-weight: 600;
-}
-
-.badge-icon {
-  margin-right: 0.5em;
-}
-
-.badge-primary {
-  background-color: #007bff;
-  color: #fff;
-}
-
-.badge-primary-inverse {
-  background-color: #fff;
-  color: #007bff;
-  border: 1px solid #007bff;
-}
-
-.badge-transparent {
-  background-color: transparent;
-  color: #000;
-}
-
-.badge-accent {
-  background-color: #17a2b8;
-  color: #fff;
-}
-
-.badge-positive {
-  background-color: #28a745;
-  color: #fff;
-}
-
-.badge-positive-subtle {
-  background-color: #d4edda;
-  color: #155724;
-}
-
-.badge-warning {
-  background-color: #ffc107;
-  color: #212529;
-}
-
-.badge-warning-subtle {
-  background-color: #fff3cd;
-  color: #856404;
-}
-
-.badge-negative {
-  background-color: #dc3545;
-  color: #fff;
-}
-
-.badge-negative-subtle {
-  background-color: #f8d7da;
-  color: #721c24;
-}
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 12px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    gap: 8px; /* Space between the icon and label */
+  }
+  
+  /* Badge variants */
+  .badge-primary {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .badge-primary-inverse {
+    background-color: #ffffff;
+    color: #007bff;
+    border: 2px solid #007bff;
+  }
+  
+  .badge-transparent {
+    background-color: transparent;
+    color: #333;
+    border: 2px solid #ddd;
+  }
+  
+  .badge-accent {
+    background-color: #ff9800;
+    color: white;
+  }
+  
+  .badge-positive {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .badge-positive-subtle {
+    background-color: #e8f5e9;
+    color: #4caf50;
+    border: 2px solid #4caf50;
+  }
+  
+  .badge-warning {
+    background-color: #ffeb3b;
+    color: #333;
+  }
+  
+  .badge-warning-subtle {
+    background-color: #fffde7;
+    color: #ffeb3b;
+    border: 2px solid #ffeb3b;
+  }
+  
+  .badge-negative {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .badge-negative-subtle {
+    background-color: #ffebee;
+    color: #f44336;
+    border: 2px solid #f44336;
+  }
+  
+  /* Icon styles */
+  .badge-icon {
+    font-size: 16px; /* Icon size */
+  }
+  
+  /* Additional spacing styles (if necessary) */
+  .badge-small {
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+  
+  .badge-large {
+    font-size: 18px;
+    padding: 8px 16px;
+  }
