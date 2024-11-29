@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'ABCDiatype-Mono';
+    src: url('./fonts/ABCDiatype-Mono.otf') format('opentype');
+    font-style: normal;
+    font-weight: bold;
+  }
+  
+  :root {
+    --font-family-button: 'ABCDiatype-Mono', serif;
+  }

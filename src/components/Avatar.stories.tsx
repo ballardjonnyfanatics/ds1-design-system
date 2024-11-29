@@ -7,37 +7,65 @@ export default {
   component: Avatar,
   argTypes: {
     label: { control: 'text' },
-    authenticated: { control: 'boolean' },
     image: { control: 'boolean' },
+    size: { control: 'select', options: ['small', 'medium', 'large', 'xl', 'two-xl', 'three-xl', 'four-xl', 'five-xl',] },
   },
 } as Meta;
 
 const Template: StoryFn<AvatarProps> = (args) => <Avatar {...args} />;
 
+export const Small = Template.bind({});
+Small.args = {
+  label: 'Jonny Ballard',
+  image: false,
+  size: 'small',
+};
+
+export const Medium = Template.bind({});
+Medium.args = {
+  label: 'Jonny Ballard',
+  image: false,
+  size: 'medium',
+};
+
+export const Large = Template.bind({});
+Large.args = {
+  label: 'Jonny Ballard',
+  image: false,
+  size: 'large',
+};
+
+export const Xl = Template.bind({});
+Xl.args = {
+  label: 'Jonny Ballard',
+  image: false,
+  size: 'xl',
+};
+
+export const TwoXl = Template.bind({});
+TwoXl.args = {
+  label: 'Jonny Ballard',
+  image: false,
+  size: 'two-xl',
+};
+
+export const ThreeXl = Template.bind({});
+ThreeXl.args = {
+  label: 'Jonny Ballard',
+  image: false,
+  size: 'three-xl',
+};
+
+export const FourXl = Template.bind({});
+FourXl.args = {
+  label: 'Jonny Ballard',
+  image: false,
+  size: 'four-xl',
+};
+
 export const Default = Template.bind({});
 Default.args = {
-  label: 'User Name',
-  authenticated: false,
+  label: 'Jonny Ballard',
   image: false,
-};
-
-export const AuthenticatedWithImage = Template.bind({});
-AuthenticatedWithImage.args = {
-  label: 'User Name',
-  authenticated: true,
-  image: true,
-};
-
-export const AuthenticatedWithoutImage = Template.bind({});
-AuthenticatedWithoutImage.args = {
-  label: 'User Name',
-  authenticated: true,
-  image: false,
-};
-
-export const UnauthenticatedWithImage = Template.bind({});
-UnauthenticatedWithImage.args = {
-  label: 'User Name',
-  authenticated: false,
-  image: true,
+  size: 'five-xl',
 };

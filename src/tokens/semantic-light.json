@@ -1,0 +1,649 @@
+{
+  "DS1": {
+    "color": {
+      "bg": {
+        "layer-0": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.50}",
+          "$description": "The default background color."
+        },
+        "layer-0-inverse": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.1000}",
+          "$description": "Use for high contrast page or component backgrounds."
+        },
+        "layer-1": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.0}",
+          "$description": "Use for high contrast page or component backgrounds."
+        },
+        "layer-2": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.50}",
+          "$description": "Use for high contrast page or component backgrounds."
+        },
+        "layer-overlay": {
+          "$type": "color",
+          "$value": "{DS1.color.alpha-black.a50}"
+        },
+        "fill": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.1000}",
+          "$description": "The background color of contained elements with a smaller surface area, like a button."
+        },
+        "fill-hover": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.900}",
+          "$description": "The hover state color of contained elements with a smaller surface area, like a button."
+        },
+        "fill-active": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.1000}",
+          "$description": "The hover state color of contained elements with a smaller surface area, like a button."
+        },
+        "fill-press": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.1000}",
+          "$description": "The active state (on press) color of contained elements with a smaller surface area, like a button."
+        },
+        "fill-disabled": {
+          "$type": "color",
+          "$value": "{DS1.color.alpha-black.a10}",
+          "$description": "The disabled state color of contained elements with a smaller surface area, like a button."
+        },
+        "fill-inverse": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.0}",
+          "$description": "The background color of contained elements with a smaller surface area, like a button."
+        },
+        "fill-inverse-hover": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.100}",
+          "$description": "The background color of contained elements with a smaller surface area, like a button."
+        },
+        "fill-inverse-active": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.0}",
+          "$description": "The background color of contained elements with a smaller surface area, like a button."
+        },
+        "fill-inverse-press": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.0}",
+          "$description": "The background color of contained elements with a smaller surface area, like a button."
+        },
+        "fill-inverse-disabled": {
+          "$type": "color",
+          "$value": "{DS1.color.alpha-white.a15}",
+          "$description": "The disabled state color of contained elements with a smaller surface area, like a button."
+        },
+        "fill-accent": {
+          "$type": "color",
+          "$value": "{DS1.color.glo.200}",
+          "$description": "The background color of elements with a smaller surface area on an inverse background."
+        },
+        "fill-accent-hover": {
+          "$type": "color",
+          "$value": "{DS1.color.glo.100}",
+          "$description": "The background color of elements with a smaller surface area on an inverse background."
+        },
+        "fill-accent-active": {
+          "$type": "color",
+          "$value": "{DS1.color.glo.200}",
+          "$description": "The background color of elements with a smaller surface area on an inverse background."
+        },
+        "fill-accent-press": {
+          "$type": "color",
+          "$value": "{DS1.color.glo.200}",
+          "$description": "The background color of elements with a smaller surface area on an inverse background."
+        },
+        "fill-accent-subtle": {
+          "$type": "color",
+          "$value": "{DS1.color.glo.50}",
+          "$description": "The background color of elements with a smaller surface area on an inverse background."
+        },
+        "fill-negative": {
+          "$type": "color",
+          "$value": "{DS1.color.red.600}",
+          "$description": "Use for backgrounds communicating critical information on elements with a smaller surface area, like a badge or a banner."
+        },
+        "fill-negative-subtle": {
+          "$type": "color",
+          "$value": "{DS1.color.red.100}",
+          "$description": "Use for backgrounds communicating critical information on elements with a smaller surface area, like a badge or a banner."
+        },
+        "fill-negative-hover": {
+          "$type": "color",
+          "$value": "{DS1.color.red.500}",
+          "$description": "The hover state color for communicating critical information on elements with a smaller surface area."
+        },
+        "fill-negative-press": {
+          "$type": "color",
+          "$value": "{DS1.color.red.700}",
+          "$description": "The selected state color for communicating critical information on elements with a smaller surface area."
+        },
+        "fill-warning": {
+          "$type": "color",
+          "$value": "{DS1.color.orange.500}",
+          "$description": "Use for backgrounds communicating warning on elements with a smaller surface area, like a badge or a banner."
+        },
+        "fill-warning-subtle": {
+          "$type": "color",
+          "$value": "{DS1.color.orange.100}",
+          "$description": "Use for backgrounds communicating warning on elements with a smaller surface area, like a badge or a banner."
+        },
+        "fill-positive": {
+          "$type": "color",
+          "$value": "{DS1.color.green.500}",
+          "$description": "Use for backgrounds communicating success on elements with a smaller surface area, like a badge or a banner."
+        },
+        "fill-positive-subtle": {
+          "$type": "color",
+          "$value": "{DS1.color.green.100}",
+          "$description": "Use for backgrounds communicating success on elements with a smaller surface area, like a badge or a banner."
+        },
+        "fill-info": {
+          "$type": "color",
+          "$value": "{DS1.color.blue.600}",
+          "$description": "Use for backgrounds communicating important information on elements with a smaller surface area, like a badge or button."
+        },
+        "fill-info-subtle": {
+          "$type": "color",
+          "$value": "{DS1.color.blue.100}",
+          "$description": "Use for backgrounds communicating important information on elements with a smaller surface area, like a badge or button."
+        },
+        "fill-alpha-subtle": {
+          "$type": "color",
+          "$value": "#0000000a",
+          "$description": "The background color of elements that need to sit on different background colors, like tabs."
+        },
+        "fill-alpha-subtle-hover": {
+          "$type": "color",
+          "$value": "#00000012",
+          "$description": "The hover state color of elements that need to sit on different background colors, like tabs."
+        },
+        "fill-alpha-subtle-press": {
+          "$type": "color",
+          "$value": "#00000017",
+          "$description": "The selected state color of elements that need to sit on different background colors, like tabs."
+        },
+        "fill-alpha-inverse-subtle": {
+          "$type": "color",
+          "$value": "#ffffff0a",
+          "$description": "The background color of elements that need to sit on different background colors, like tabs."
+        },
+        "fill-alpha-inverse-subtle-hover": {
+          "$type": "color",
+          "$value": "#ffffff12",
+          "$description": "The hover state color of elements that need to sit on different background colors, like tabs."
+        },
+        "fill-alpha-inverse-subtle-press": {
+          "$type": "color",
+          "$value": "#ffffff17",
+          "$description": "The selected state color of elements that need to sit on different background colors, like tabs."
+        },
+        "fill-alpha": {
+          "$type": "color",
+          "$value": "{DS1.color.alpha-black.a10}",
+          "$description": "The background color of elements that need to sit on different background colors, like tabs."
+        },
+        "fill-alpha-inverse": {
+          "$type": "color",
+          "$value": "{DS1.color.alpha-white.a10}",
+          "$description": "The background color of elements that need to sit on different background colors, like tabs."
+        },
+        "fill-alpha-bgblur": {
+          "$type": "color",
+          "$value": "{DS1.color.alpha-white.a50}"
+        },
+        "fill-alpha-bgblur-strong": {
+          "$type": "color",
+          "$value": "{DS1.color.alpha-white.a75}"
+        }
+      },
+      "text": {
+        "primary": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.950}",
+          "$description": "The default text color."
+        },
+        "primary-inverse": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.0}"
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.800}",
+          "$description": "Use for text with a secondary level of prominence."
+        },
+        "secondary-inverse": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.300}"
+        },
+        "placeholder": {
+          "$type": "color",
+          "$value": "{DS1.color.alpha-black.a75}",
+          "$description": "Use for text with a secondary level of prominence."
+        },
+        "placeholder-inverse": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.400}"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.500}",
+          "$description": "Use for text with a secondary level of prominence."
+        },
+        "disabled-inverse": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.400}",
+          "$description": "Use for text with a secondary level of prominence."
+        },
+        "accent": {
+          "$type": "color",
+          "$value": "{DS1.color.glo.200}",
+          "$description": "Use for text communicating important information."
+        },
+        "accent-on-bg-fill": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.1000}",
+          "$description": "Use for text communicating important information."
+        },
+        "negative": {
+          "$type": "color",
+          "$value": "{DS1.color.red.600}",
+          "$description": "Use for text communicating critical information."
+        },
+        "negative-on-bg-fill": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.0}",
+          "$description": "Use for text communicating critical information."
+        },
+        "negative-on-bg-fill-subtle": {
+          "$type": "color",
+          "$value": "{DS1.color.red.700}",
+          "$description": "Use for text communicating critical information."
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{DS1.color.orange.600}",
+          "$description": "Use for text communicating warning."
+        },
+        "warning-on-bg-fill": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.0}",
+          "$description": "Use for text communicating warning."
+        },
+        "warning-on-bg-fill-subtle": {
+          "$type": "color",
+          "$value": "{DS1.color.orange.700}",
+          "$description": "Use for text communicating warning."
+        },
+        "positive": {
+          "$type": "color",
+          "$value": "{DS1.color.green.600}",
+          "$description": "Use for text communicating success."
+        },
+        "positive-on-bg-fill": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.0}",
+          "$description": "Use for text communicating success."
+        },
+        "positive-on-bg-fill-subtle": {
+          "$type": "color",
+          "$value": "{DS1.color.green.700}",
+          "$description": "Use for text communicating success."
+        },
+        "info": {
+          "$type": "color",
+          "$value": "{DS1.color.blue.600}",
+          "$description": "Use for text communicating important information."
+        },
+        "info-on-bg-fill": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.0}",
+          "$description": "Use for text communicating important information."
+        },
+        "info-on-bg-fill-subtle": {
+          "$type": "color",
+          "$value": "{DS1.color.blue.700}",
+          "$description": "Use for text communicating important information."
+        },
+        "link": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.1000}",
+          "$description": "Use for backgrounds communicating success on elements with a smaller surface area, like a badge or a banner."
+        },
+        "link-hover": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.900}",
+          "$description": "The hover state color for communicating success on elements with a smaller surface area."
+        },
+        "link-press": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.1000}",
+          "$description": "The active state (on press) color for communicating success on elements with a smaller surface area."
+        }
+      },
+      "border": {
+        "primary": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.300}",
+          "$description": "The default color for borders on any element."
+        },
+        "primary-hover": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.500}",
+          "$description": "The hover color for borders on any element."
+        },
+        "primary-active": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.1000}",
+          "$description": "The hover color for borders on any element."
+        },
+        "primary-focus": {
+          "$type": "color",
+          "$value": "{DS1.color.blue.600}",
+          "$description": "The hover color for borders on any element."
+        },
+        "primary-disabled": {
+          "$type": "color",
+          "$value": "{DS1.color.alpha-black.a10}",
+          "$description": "The disabled color for borders on any element."
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.100}",
+          "$description": "The default color for borders on any element."
+        },
+        "negative": {
+          "$type": "color",
+          "$value": "{DS1.color.red.600}",
+          "$description": "Use for borders communicating critical information."
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{DS1.color.orange.500}",
+          "$description": "Use for borders communicating warning."
+        },
+        "positive": {
+          "$type": "color",
+          "$value": "{DS1.color.green.600}",
+          "$description": "Use for borders communicating warning."
+        },
+        "info": {
+          "$type": "color",
+          "$value": "{DS1.color.blue.600}",
+          "$description": "Use for borders communicating warning."
+        }
+      },
+      "icon": {
+        "primary": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.1000}",
+          "$description": "The default color for icons."
+        },
+        "primary-hover": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.900}",
+          "$description": "The default color for icons."
+        },
+        "primary-active": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.1000}",
+          "$description": "The default color for icons."
+        },
+        "primary-disabled": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.500}",
+          "$description": "The disabled state color for icons."
+        },
+        "primary-inverse": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.0}",
+          "$description": "Use for icons on an inverse background."
+        },
+        "primary-inverse-hover": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.100}",
+          "$description": "The hover state color for icons."
+        },
+        "primary-inverse-active": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.1000}",
+          "$description": "The hover state color for icons."
+        },
+        "primary-inverse-disabled": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.500}",
+          "$description": "The disabled state color for icons."
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.800}",
+          "$description": "The disabled state color for icons."
+        },
+        "accent-on-bg-fill": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.1000}",
+          "$description": "Use for icons on an inverse background."
+        },
+        "negative": {
+          "$type": "color",
+          "$value": "{DS1.color.red.600}",
+          "$description": "Use for icons on an inverse background."
+        },
+        "negative-on-bg-fill": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.0}",
+          "$description": "Use for icons on an inverse background."
+        },
+        "negative-on-bg-fill-subtle": {
+          "$type": "color",
+          "$value": "{DS1.color.red.700}",
+          "$description": "Use for icons on an inverse background."
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{DS1.color.orange.600}",
+          "$description": "Use for icons on an inverse background."
+        },
+        "warning-on-bg-fill": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.0}",
+          "$description": "Use for icons on an inverse background."
+        },
+        "warning-on-bg-fill-subtle": {
+          "$type": "color",
+          "$value": "{DS1.color.orange.700}",
+          "$description": "Use for icons on an inverse background."
+        },
+        "positive": {
+          "$type": "color",
+          "$value": "{DS1.color.green.600}",
+          "$description": "Use for icons on an inverse background."
+        },
+        "positive-on-bg-fill": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.0}",
+          "$description": "Use for icons on an inverse background."
+        },
+        "positive-on-bg-fill-subtle": {
+          "$type": "color",
+          "$value": "{DS1.color.green.700}",
+          "$description": "Use for icons on an inverse background."
+        },
+        "info": {
+          "$type": "color",
+          "$value": "{DS1.color.blue.700}",
+          "$description": "Use for icons on an inverse background."
+        },
+        "info-on-bg-fill": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.0}",
+          "$description": "Use for icons on an inverse background."
+        },
+        "info-on-bg-fill-subtle": {
+          "$type": "color",
+          "$value": "{DS1.color.blue.700}",
+          "$description": "Use for icons on an inverse background."
+        }
+      },
+      "avatar": {
+        "bg-fill": {
+          "$type": "color",
+          "$value": "{DS1.color.blue.600}"
+        },
+        "text": {
+          "$type": "color",
+          "$value": "{DS1.color.text.primary-inverse}"
+        }
+      },
+      "button": {
+        "secondary-bg-fill": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.0}"
+        },
+        "semi-alpha-bg-fill": {
+          "$type": "color",
+          "$value": "{DS1.color.alpha-white.a25}"
+        }
+      },
+      "input": {
+        "bg-fill": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.0}"
+        }
+      },
+      "dropdown": {
+        "bg-fill": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.0}"
+        },
+        "row-bg-fill-hover": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.50}"
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{DS1.color.alpha-white.a0}"
+        }
+      },
+      "toggle": {
+        "bg-fill": {
+          "$type": "color",
+          "$value": "{DS1.color.alpha-black.a25}"
+        },
+        "bg-fill-active": {
+          "$type": "color",
+          "$value": "{DS1.color.green.500}"
+        },
+        "bg-fill-disabled": {
+          "$type": "color",
+          "$value": "{DS1.color.alpha-black.a10}"
+        },
+        "fg-fill": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.0}"
+        },
+        "fg-fill-disabled": {
+          "$type": "color",
+          "$value": "{DS1.color.alpha-white.a50}"
+        }
+      },
+      "divider": {
+        "primary": {
+          "$type": "color",
+          "$value": "{DS1.color.alpha-black.a5}"
+        },
+        "primary-inverse": {
+          "$type": "color",
+          "$value": "{DS1.color.alpha-white.a10}"
+        }
+      },
+      "do_not_implement": {
+        "ios-material-1": {
+          "$type": "color",
+          "$value": "#ffffffe5"
+        },
+        "ios-material-2": {
+          "$type": "color",
+          "$value": "#00000000"
+        }
+      },
+      "progress": {
+        "positive": {
+          "$type": "color",
+          "$value": "{DS1.color.green.500}"
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{DS1.color.orange.500}"
+        },
+        "negative": {
+          "$type": "color",
+          "$value": "{DS1.color.red.600}"
+        }
+      },
+      "button-dock": {
+        "fill-gradient-top": {
+          "$type": "color",
+          "$value": "{DS1.color.alpha-white.a0}"
+        },
+        "fill-gradient-bottom": {
+          "$type": "color",
+          "$value": "{DS1.color.neutral.0}"
+        }
+      }
+    },
+    "border": {
+      "radius": {
+        "button": {
+          "$type": "dimension",
+          "$value": "{DS1.border.radius.max}"
+        },
+        "card": {
+          "$type": "dimension",
+          "$value": "{DS1.border.radius.200}"
+        },
+        "input": {
+          "$type": "dimension",
+          "$value": "{DS1.border.radius.150}"
+        },
+        "search-input": {
+          "$type": "dimension",
+          "$value": "{DS1.border.radius.max}"
+        },
+        "badge": {
+          "$type": "dimension",
+          "$value": "{DS1.border.radius.100}"
+        }
+      }
+    },
+    "font": {
+      "family": {
+        "headline": {
+          "$type": "string",
+          "$value": "ABC Diatype"
+        },
+        "body": {
+          "$type": "string",
+          "$value": "ABC Diatype"
+        },
+        "caption": {
+          "$type": "string",
+          "$value": "ABC Diatype Mono"
+        },
+        "button": {
+          "$type": "string",
+          "$value": "ABC Diatype Mono"
+        }
+      }
+    },
+    "effects": {
+      "img-bgblur": {
+        "$type": "dimension",
+        "$value": "12px"
+      }
+    }
+  }
+}

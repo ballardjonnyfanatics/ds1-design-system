@@ -1,24 +1,36 @@
 import React from 'react';
 import './avatar.css';
+import '../tokens/tokens-dark.css';
+import '../tokens/tokens-light.css';
+import '../fonts.css';
 
 export type AvatarProps = {
   label: string;
-  authenticated: boolean;
   image: boolean;
+  size: 'small' | 'medium' | 'large' | 'xl' | 'two-xl' | 'three-xl' | 'four-xl' | 'five-xl';
+  onClick: () => void;
 };
 
-const Avatar: React.FC<AvatarProps> = ({ label, authenticated, image }) => {
+const Avatar: React.FC<AvatarProps> = ({ label, image, size, onClick, }) => {
+  // Split the label into words
+  const words = label.split(' ');
+
+  // Get the first letter of the first word, if it exists
+  const firstWordFirstLetter = words.length > 0 ? words[0].charAt(0) : '';
+
+    // Get the first letter of the second word, if it exists
+    const secondWordFirstLetter = words.length > 1 ? words[1].charAt(0) : '';
+
   return (
-    <div className="avatar">
+    <div className={`avatar avatar-${size}`} onClick={onClick}>
       {image ? (
         <img className="avatar-image" src="path/to/image.jpg" alt="Avatar" />
       ) : (
-        <div className="avatar-placeholder">{label.charAt(0)}</div>
+        <span className='avatar-monogram'>
+          {firstWordFirstLetter}
+          {secondWordFirstLetter}
+        </span>
       )}
-      <div className="avatar-info">
-        <span className="avatar-label">{label}</span>
-        {authenticated && <span className="avatar-authenticated">✔</span>}
-      </div>
     </div>
   );
 };

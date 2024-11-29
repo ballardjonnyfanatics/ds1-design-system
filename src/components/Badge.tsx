@@ -1,5 +1,8 @@
 import React from 'react';
 import './badge.css';
+import '../tokens/tokens-dark.css';
+import '../tokens/tokens-light.css';
+import '../fonts.css';
 
 export type BadgeProps = {
   variant: 'primary' | 'primary-inverse' | 'transparent' | 'accent' | 'positive' | 'positive-subtle' | 'warning' | 'warning-subtle' | 'negative' | 'negative-subtle';
