@@ -29,4 +29,8 @@ jobs:
           git config --global user.name "Jonny Ballard"
 
       - name: Deploy to GitHub Pages
-        run: npm run deploy-storybook
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}
+          npm run deploy-storybook
